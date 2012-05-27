@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B109A041571FFD0003488C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B109A031571FFD0003488C6 /* UIKit.framework */; };
+		7B109A061571FFD0003488C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B109A051571FFD0003488C6 /* Foundation.framework */; };
+		7B109A081571FFD0003488C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B109A071571FFD0003488C6 /* CoreGraphics.framework */; };
+		7B109A0E1571FFD0003488C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B109A0C1571FFD0003488C6 /* InfoPlist.strings */; };
+		7B109A101571FFD0003488C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B109A0F1571FFD0003488C6 /* main.m */; };
+		7B109A141571FFD0003488C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B109A131571FFD0003488C6 /* AppDelegate.m */; };
+		7B109A221571FFFD003488C6 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B109A211571FFFD003488C6 /* RootViewController.m */; };
+		7B109A3E15720625003488C6 /* gray_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B109A2515720625003488C6 /* gray_button.png */; };
+		7B109A3F15720625003488C6 /* Green_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B109A2615720625003488C6 /* Green_background.png */; };
+		7B109A4015720625003488C6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7B109A2715720625003488C6 /* README.md */; };
+		7B109A4215720625003488C6 /* SDFooterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B109A2B15720625003488C6 /* SDFooterButton.m */; };
+		7B109A4315720625003488C6 /* SDKIT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7B109A2C15720625003488C6 /* SDKIT.txt */; };
+		7B109A4415720625003488C6 /* SDLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B109A2E15720625003488C6 /* SDLabelCell.m */; };
+		7B109A4515720625003488C6 /* SDMaterialCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B109A3015720625003488C6 /* SDMaterialCell.m */; };
+		7B109A4615720625003488C6 /* SDPatternCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B109A3215720625003488C6 /* SDPatternCell.m */; };
+		7B109A4715720625003488C6 /* SDPlaceholderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B109A3415720625003488C6 /* SDPlaceholderCell.m */; };
+		7B109A4815720625003488C6 /* SDSmoothCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B109A3615720625003488C6 /* SDSmoothCell.m */; };
+		7B109A4915720625003488C6 /* SDStepCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B109A3815720625003488C6 /* SDStepCell.m */; };
+		7B109A4A15720625003488C6 /* SDSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B109A3A15720625003488C6 /* SDSwitchCell.m */; };
+		7B109A4B15720625003488C6 /* SDTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B109A3C15720625003488C6 /* SDTextFieldCell.m */; };
+		7B109A4E1572B029003488C6 /* DisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B109A4D1572B029003488C6 /* DisplayViewController.m */; };
+		7B109A511572B095003488C6 /* SDFooterButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B109A501572B095003488C6 /* SDFooterButtonViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B1099FF1571FFD0003488C6 /* SDSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B109A031571FFD0003488C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7B109A051571FFD0003488C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7B109A071571FFD0003488C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7B109A0B1571FFD0003488C6 /* SDSampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SDSampleApp-Info.plist"; sourceTree = "<group>"; };
+		7B109A0D1571FFD0003488C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B109A0F1571FFD0003488C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B109A111571FFD0003488C6 /* SDSampleApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDSampleApp-Prefix.pch"; sourceTree = "<group>"; };
+		7B109A121571FFD0003488C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B109A131571FFD0003488C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B109A201571FFFD003488C6 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		7B109A211571FFFD003488C6 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		7B109A2515720625003488C6 /* gray_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray_button.png; sourceTree = "<group>"; };
+		7B109A2615720625003488C6 /* Green_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green_background.png; sourceTree = "<group>"; };
+		7B109A2715720625003488C6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		7B109A2A15720625003488C6 /* SDFooterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFooterButton.h; sourceTree = "<group>"; };
+		7B109A2B15720625003488C6 /* SDFooterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDFooterButton.m; sourceTree = "<group>"; };
+		7B109A2C15720625003488C6 /* SDKIT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SDKIT.txt; sourceTree = "<group>"; };
+		7B109A2D15720625003488C6 /* SDLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLabelCell.h; sourceTree = "<group>"; };
+		7B109A2E15720625003488C6 /* SDLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLabelCell.m; sourceTree = "<group>"; };
+		7B109A2F15720625003488C6 /* SDMaterialCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMaterialCell.h; sourceTree = "<group>"; };
+		7B109A3015720625003488C6 /* SDMaterialCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDMaterialCell.m; sourceTree = "<group>"; };
+		7B109A3115720625003488C6 /* SDPatternCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPatternCell.h; sourceTree = "<group>"; };
+		7B109A3215720625003488C6 /* SDPatternCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPatternCell.m; sourceTree = "<group>"; };
+		7B109A3315720625003488C6 /* SDPlaceholderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPlaceholderCell.h; sourceTree = "<group>"; };
+		7B109A3415720625003488C6 /* SDPlaceholderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPlaceholderCell.m; sourceTree = "<group>"; };
+		7B109A3515720625003488C6 /* SDSmoothCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSmoothCell.h; sourceTree = "<group>"; };
+		7B109A3615720625003488C6 /* SDSmoothCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSmoothCell.m; sourceTree = "<group>"; };
+		7B109A3715720625003488C6 /* SDStepCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDStepCell.h; sourceTree = "<group>"; };
+		7B109A3815720625003488C6 /* SDStepCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDStepCell.m; sourceTree = "<group>"; };
+		7B109A3915720625003488C6 /* SDSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSwitchCell.h; sourceTree = "<group>"; };
+		7B109A3A15720625003488C6 /* SDSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSwitchCell.m; sourceTree = "<group>"; };
+		7B109A3B15720625003488C6 /* SDTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTextFieldCell.h; sourceTree = "<group>"; };
+		7B109A3C15720625003488C6 /* SDTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTextFieldCell.m; sourceTree = "<group>"; };
+		7B109A4C1572B028003488C6 /* DisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayViewController.h; sourceTree = SOURCE_ROOT; };
+		7B109A4D1572B029003488C6 /* DisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayViewController.m; sourceTree = SOURCE_ROOT; };
+		7B109A4F1572B095003488C6 /* SDFooterButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDFooterButtonViewController.h; path = ../SDFooterButtonViewController.h; sourceTree = "<group>"; };
+		7B109A501572B095003488C6 /* SDFooterButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDFooterButtonViewController.m; path = ../SDFooterButtonViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B1099FC1571FFD0003488C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B109A041571FFD0003488C6 /* UIKit.framework in Frameworks */,
+				7B109A061571FFD0003488C6 /* Foundation.framework in Frameworks */,
+				7B109A081571FFD0003488C6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B1099F41571FFD0003488C6 = {
+			isa = PBXGroup;
+			children = (
+				7B109A091571FFD0003488C6 /* SDSampleApp */,
+				7B109A021571FFD0003488C6 /* Frameworks */,
+				7B109A001571FFD0003488C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B109A001571FFD0003488C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B1099FF1571FFD0003488C6 /* SDSampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B109A021571FFD0003488C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B109A2315720625003488C6 /* SDKit */,
+				7B109A031571FFD0003488C6 /* UIKit.framework */,
+				7B109A051571FFD0003488C6 /* Foundation.framework */,
+				7B109A071571FFD0003488C6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B109A091571FFD0003488C6 /* SDSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				7B109A521572B09C003488C6 /* Class VCs */,
+				7B109A121571FFD0003488C6 /* AppDelegate.h */,
+				7B109A131571FFD0003488C6 /* AppDelegate.m */,
+				7B109A201571FFFD003488C6 /* RootViewController.h */,
+				7B109A211571FFFD003488C6 /* RootViewController.m */,
+				7B109A4C1572B028003488C6 /* DisplayViewController.h */,
+				7B109A4D1572B029003488C6 /* DisplayViewController.m */,
+				7B109A0A1571FFD0003488C6 /* Supporting Files */,
+			);
+			path = SDSampleApp;
+			sourceTree = "<group>";
+		};
+		7B109A0A1571FFD0003488C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B109A0B1571FFD0003488C6 /* SDSampleApp-Info.plist */,
+				7B109A0C1571FFD0003488C6 /* InfoPlist.strings */,
+				7B109A0F1571FFD0003488C6 /* main.m */,
+				7B109A111571FFD0003488C6 /* SDSampleApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B109A2315720625003488C6 /* SDKit */ = {
+			isa = PBXGroup;
+			children = (
+				7B109A2715720625003488C6 /* README.md */,
+				7B109A2515720625003488C6 /* gray_button.png */,
+				7B109A2615720625003488C6 /* Green_background.png */,
+				7B109A2C15720625003488C6 /* SDKIT.txt */,
+				7B109A2A15720625003488C6 /* SDFooterButton.h */,
+				7B109A2B15720625003488C6 /* SDFooterButton.m */,
+				7B109A2D15720625003488C6 /* SDLabelCell.h */,
+				7B109A2E15720625003488C6 /* SDLabelCell.m */,
+				7B109A2F15720625003488C6 /* SDMaterialCell.h */,
+				7B109A3015720625003488C6 /* SDMaterialCell.m */,
+				7B109A3115720625003488C6 /* SDPatternCell.h */,
+				7B109A3215720625003488C6 /* SDPatternCell.m */,
+				7B109A3315720625003488C6 /* SDPlaceholderCell.h */,
+				7B109A3415720625003488C6 /* SDPlaceholderCell.m */,
+				7B109A3515720625003488C6 /* SDSmoothCell.h */,
+				7B109A3615720625003488C6 /* SDSmoothCell.m */,
+				7B109A3715720625003488C6 /* SDStepCell.h */,
+				7B109A3815720625003488C6 /* SDStepCell.m */,
+				7B109A3915720625003488C6 /* SDSwitchCell.h */,
+				7B109A3A15720625003488C6 /* SDSwitchCell.m */,
+				7B109A3B15720625003488C6 /* SDTextFieldCell.h */,
+				7B109A3C15720625003488C6 /* SDTextFieldCell.m */,
+			);
+			path = SDKit;
+			sourceTree = "<group>";
+		};
+		7B109A521572B09C003488C6 /* Class VCs */ = {
+			isa = PBXGroup;
+			children = (
+				7B109A4F1572B095003488C6 /* SDFooterButtonViewController.h */,
+				7B109A501572B095003488C6 /* SDFooterButtonViewController.m */,
+			);
+			name = "Class VCs";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B1099FE1571FFD0003488C6 /* SDSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B109A1D1571FFD0003488C6 /* Build configuration list for PBXNativeTarget "SDSampleApp" */;
+			buildPhases = (
+				7B1099FB1571FFD0003488C6 /* Sources */,
+				7B1099FC1571FFD0003488C6 /* Frameworks */,
+				7B1099FD1571FFD0003488C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDSampleApp;
+			productName = SDSampleApp;
+			productReference = 7B1099FF1571FFD0003488C6 /* SDSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B1099F61571FFD0003488C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Bixby Apps";
+			};
+			buildConfigurationList = 7B1099F91571FFD0003488C6 /* Build configuration list for PBXProject "SDSampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7B1099F41571FFD0003488C6;
+			productRefGroup = 7B109A001571FFD0003488C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B1099FE1571FFD0003488C6 /* SDSampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B1099FD1571FFD0003488C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B109A0E1571FFD0003488C6 /* InfoPlist.strings in Resources */,
+				7B109A3E15720625003488C6 /* gray_button.png in Resources */,
+				7B109A3F15720625003488C6 /* Green_background.png in Resources */,
+				7B109A4015720625003488C6 /* README.md in Resources */,
+				7B109A4315720625003488C6 /* SDKIT.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B1099FB1571FFD0003488C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B109A101571FFD0003488C6 /* main.m in Sources */,
+				7B109A141571FFD0003488C6 /* AppDelegate.m in Sources */,
+				7B109A221571FFFD003488C6 /* RootViewController.m in Sources */,
+				7B109A4215720625003488C6 /* SDFooterButton.m in Sources */,
+				7B109A4415720625003488C6 /* SDLabelCell.m in Sources */,
+				7B109A4515720625003488C6 /* SDMaterialCell.m in Sources */,
+				7B109A4615720625003488C6 /* SDPatternCell.m in Sources */,
+				7B109A4715720625003488C6 /* SDPlaceholderCell.m in Sources */,
+				7B109A4815720625003488C6 /* SDSmoothCell.m in Sources */,
+				7B109A4915720625003488C6 /* SDStepCell.m in Sources */,
+				7B109A4A15720625003488C6 /* SDSwitchCell.m in Sources */,
+				7B109A4B15720625003488C6 /* SDTextFieldCell.m in Sources */,
+				7B109A4E1572B029003488C6 /* DisplayViewController.m in Sources */,
+				7B109A511572B095003488C6 /* SDFooterButtonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7B109A0C1571FFD0003488C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B109A0D1571FFD0003488C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B109A1B1571FFD0003488C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B109A1C1571FFD0003488C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B109A1E1571FFD0003488C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDSampleApp/SDSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "SDSampleApp/SDSampleApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7B109A1F1571FFD0003488C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDSampleApp/SDSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "SDSampleApp/SDSampleApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B1099F91571FFD0003488C6 /* Build configuration list for PBXProject "SDSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B109A1B1571FFD0003488C6 /* Debug */,
+				7B109A1C1571FFD0003488C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B109A1D1571FFD0003488C6 /* Build configuration list for PBXNativeTarget "SDSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B109A1E1571FFD0003488C6 /* Debug */,
+				7B109A1F1571FFD0003488C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B1099F61571FFD0003488C6 /* Project object */;
+}
