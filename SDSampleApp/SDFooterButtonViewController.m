@@ -5,7 +5,7 @@
 //  Created by Stephen Derico on 5/27/12.
 //  Copyright (c) 2012 Bixby Apps. All rights reserved.
 //
-#import "SDFooterButton.h"
+#import "SDFooterButtonView.h"
 #import "SDFooterButtonViewController.h"
 
 @interface SDFooterButtonViewController ()
@@ -17,7 +17,7 @@
 
 - (UIView*)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section{
 
-    SDFooterButton *footer = [[SDFooterButton alloc] initWithStyle:SDFooterButtonStyleGreen];
+    SDFooterButtonView *footer = [[SDFooterButtonView alloc] initWithStyle:SDFooterButtonStyleGreen];
     [footer.button setTitle:@"Tap Me" forState:UIControlStateNormal];
     [footer.button addTarget:self action:@selector(tapped) forControlEvents:UIControlEventTouchUpInside];
     
@@ -25,7 +25,6 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
-
 
     return 75.0f;
 }

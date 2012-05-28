@@ -17,18 +17,24 @@
 		7B109A3E15720625003488C6 /* gray_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B109A2515720625003488C6 /* gray_button.png */; };
 		7B109A3F15720625003488C6 /* Green_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B109A2615720625003488C6 /* Green_background.png */; };
 		7B109A4015720625003488C6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7B109A2715720625003488C6 /* README.md */; };
-		7B109A4215720625003488C6 /* SDFooterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B109A2B15720625003488C6 /* SDFooterButton.m */; };
 		7B109A4315720625003488C6 /* SDKIT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7B109A2C15720625003488C6 /* SDKIT.txt */; };
 		7B109A4415720625003488C6 /* SDLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B109A2E15720625003488C6 /* SDLabelCell.m */; };
-		7B109A4515720625003488C6 /* SDMaterialCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B109A3015720625003488C6 /* SDMaterialCell.m */; };
 		7B109A4615720625003488C6 /* SDPatternCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B109A3215720625003488C6 /* SDPatternCell.m */; };
 		7B109A4715720625003488C6 /* SDPlaceholderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B109A3415720625003488C6 /* SDPlaceholderCell.m */; };
 		7B109A4815720625003488C6 /* SDSmoothCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B109A3615720625003488C6 /* SDSmoothCell.m */; };
-		7B109A4915720625003488C6 /* SDStepCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B109A3815720625003488C6 /* SDStepCell.m */; };
 		7B109A4A15720625003488C6 /* SDSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B109A3A15720625003488C6 /* SDSwitchCell.m */; };
 		7B109A4B15720625003488C6 /* SDTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B109A3C15720625003488C6 /* SDTextFieldCell.m */; };
-		7B109A4E1572B029003488C6 /* DisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B109A4D1572B029003488C6 /* DisplayViewController.m */; };
-		7B109A511572B095003488C6 /* SDFooterButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B109A501572B095003488C6 /* SDFooterButtonViewController.m */; };
+		7B3374651572F682003532B6 /* SDPlaceholderCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3374641572F682003532B6 /* SDPlaceholderCellViewController.m */; };
+		7B3374691572FCC0003532B6 /* SDFooterButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3374681572FCC0003532B6 /* SDFooterButtonView.m */; };
+		7BE13E7A1572D69C00F94A82 /* log in Resources */ = {isa = PBXBuildFile; fileRef = 7BE13E791572D69C00F94A82 /* log */; };
+		7BE13E801572D77B00F94A82 /* DisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE13E7D1572D77B00F94A82 /* DisplayViewController.m */; };
+		7BE13E811572D77B00F94A82 /* SDFooterButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE13E7F1572D77B00F94A82 /* SDFooterButtonViewController.m */; };
+		7BE13E831572DD9900F94A82 /* Red_Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE13E821572DD9900F94A82 /* Red_Background.png */; };
+		7BE13E861572E9BD00F94A82 /* SDLabelCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE13E851572E9BD00F94A82 /* SDLabelCellViewController.m */; };
+		7BE13E891572F4D800F94A82 /* SDPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE13E881572F4D800F94A82 /* SDPatternViewController.m */; };
+		7BE13E8C1572F4EE00F94A82 /* SDSmoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE13E8B1572F4EE00F94A82 /* SDSmoothViewController.m */; };
+		7BE13E8F1572F52900F94A82 /* SDSwitchCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE13E8E1572F52900F94A82 /* SDSwitchCellViewController.m */; };
+		7BE13E921572F53800F94A82 /* SDTextFieldCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE13E911572F53800F94A82 /* SDTextFieldCellViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,29 +53,39 @@
 		7B109A2515720625003488C6 /* gray_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray_button.png; sourceTree = "<group>"; };
 		7B109A2615720625003488C6 /* Green_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green_background.png; sourceTree = "<group>"; };
 		7B109A2715720625003488C6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		7B109A2A15720625003488C6 /* SDFooterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFooterButton.h; sourceTree = "<group>"; };
-		7B109A2B15720625003488C6 /* SDFooterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDFooterButton.m; sourceTree = "<group>"; };
 		7B109A2C15720625003488C6 /* SDKIT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SDKIT.txt; sourceTree = "<group>"; };
 		7B109A2D15720625003488C6 /* SDLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLabelCell.h; sourceTree = "<group>"; };
 		7B109A2E15720625003488C6 /* SDLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLabelCell.m; sourceTree = "<group>"; };
-		7B109A2F15720625003488C6 /* SDMaterialCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMaterialCell.h; sourceTree = "<group>"; };
-		7B109A3015720625003488C6 /* SDMaterialCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDMaterialCell.m; sourceTree = "<group>"; };
 		7B109A3115720625003488C6 /* SDPatternCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPatternCell.h; sourceTree = "<group>"; };
 		7B109A3215720625003488C6 /* SDPatternCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPatternCell.m; sourceTree = "<group>"; };
 		7B109A3315720625003488C6 /* SDPlaceholderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPlaceholderCell.h; sourceTree = "<group>"; };
 		7B109A3415720625003488C6 /* SDPlaceholderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPlaceholderCell.m; sourceTree = "<group>"; };
 		7B109A3515720625003488C6 /* SDSmoothCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSmoothCell.h; sourceTree = "<group>"; };
 		7B109A3615720625003488C6 /* SDSmoothCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSmoothCell.m; sourceTree = "<group>"; };
-		7B109A3715720625003488C6 /* SDStepCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDStepCell.h; sourceTree = "<group>"; };
-		7B109A3815720625003488C6 /* SDStepCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDStepCell.m; sourceTree = "<group>"; };
 		7B109A3915720625003488C6 /* SDSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSwitchCell.h; sourceTree = "<group>"; };
 		7B109A3A15720625003488C6 /* SDSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSwitchCell.m; sourceTree = "<group>"; };
 		7B109A3B15720625003488C6 /* SDTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTextFieldCell.h; sourceTree = "<group>"; };
 		7B109A3C15720625003488C6 /* SDTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTextFieldCell.m; sourceTree = "<group>"; };
-		7B109A4C1572B028003488C6 /* DisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayViewController.h; sourceTree = SOURCE_ROOT; };
-		7B109A4D1572B029003488C6 /* DisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayViewController.m; sourceTree = SOURCE_ROOT; };
-		7B109A4F1572B095003488C6 /* SDFooterButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDFooterButtonViewController.h; path = ../SDFooterButtonViewController.h; sourceTree = "<group>"; };
-		7B109A501572B095003488C6 /* SDFooterButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDFooterButtonViewController.m; path = ../SDFooterButtonViewController.m; sourceTree = "<group>"; };
+		7B3374631572F682003532B6 /* SDPlaceholderCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPlaceholderCellViewController.h; sourceTree = "<group>"; };
+		7B3374641572F682003532B6 /* SDPlaceholderCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPlaceholderCellViewController.m; sourceTree = "<group>"; };
+		7B3374671572FCC0003532B6 /* SDFooterButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFooterButtonView.h; sourceTree = "<group>"; };
+		7B3374681572FCC0003532B6 /* SDFooterButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDFooterButtonView.m; sourceTree = "<group>"; };
+		7BE13E791572D69C00F94A82 /* log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = log; path = ../SDKit/log; sourceTree = "<group>"; };
+		7BE13E7C1572D77B00F94A82 /* DisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayViewController.h; sourceTree = "<group>"; };
+		7BE13E7D1572D77B00F94A82 /* DisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayViewController.m; sourceTree = "<group>"; };
+		7BE13E7E1572D77B00F94A82 /* SDFooterButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFooterButtonViewController.h; sourceTree = "<group>"; };
+		7BE13E7F1572D77B00F94A82 /* SDFooterButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDFooterButtonViewController.m; sourceTree = "<group>"; };
+		7BE13E821572DD9900F94A82 /* Red_Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red_Background.png; sourceTree = "<group>"; };
+		7BE13E841572E9BD00F94A82 /* SDLabelCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLabelCellViewController.h; sourceTree = "<group>"; };
+		7BE13E851572E9BD00F94A82 /* SDLabelCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLabelCellViewController.m; sourceTree = "<group>"; };
+		7BE13E871572F4D800F94A82 /* SDPatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPatternViewController.h; sourceTree = "<group>"; };
+		7BE13E881572F4D800F94A82 /* SDPatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPatternViewController.m; sourceTree = "<group>"; };
+		7BE13E8A1572F4EE00F94A82 /* SDSmoothViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSmoothViewController.h; sourceTree = "<group>"; };
+		7BE13E8B1572F4EE00F94A82 /* SDSmoothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSmoothViewController.m; sourceTree = "<group>"; };
+		7BE13E8D1572F52900F94A82 /* SDSwitchCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSwitchCellViewController.h; sourceTree = "<group>"; };
+		7BE13E8E1572F52900F94A82 /* SDSwitchCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSwitchCellViewController.m; sourceTree = "<group>"; };
+		7BE13E901572F53700F94A82 /* SDTextFieldCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTextFieldCellViewController.h; sourceTree = "<group>"; };
+		7BE13E911572F53800F94A82 /* SDTextFieldCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTextFieldCellViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,13 +133,12 @@
 		7B109A091571FFD0003488C6 /* SDSampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				7B109A521572B09C003488C6 /* Class VCs */,
+				7BE13E791572D69C00F94A82 /* log */,
 				7B109A121571FFD0003488C6 /* AppDelegate.h */,
 				7B109A131571FFD0003488C6 /* AppDelegate.m */,
 				7B109A201571FFFD003488C6 /* RootViewController.h */,
 				7B109A211571FFFD003488C6 /* RootViewController.m */,
-				7B109A4C1572B028003488C6 /* DisplayViewController.h */,
-				7B109A4D1572B029003488C6 /* DisplayViewController.m */,
+				7B109A521572B09C003488C6 /* Class VCs */,
 				7B109A0A1571FFD0003488C6 /* Supporting Files */,
 			);
 			path = SDSampleApp;
@@ -143,24 +158,21 @@
 		7B109A2315720625003488C6 /* SDKit */ = {
 			isa = PBXGroup;
 			children = (
+				7B3374671572FCC0003532B6 /* SDFooterButtonView.h */,
+				7B3374681572FCC0003532B6 /* SDFooterButtonView.m */,
+				7BE13E821572DD9900F94A82 /* Red_Background.png */,
 				7B109A2715720625003488C6 /* README.md */,
 				7B109A2515720625003488C6 /* gray_button.png */,
 				7B109A2615720625003488C6 /* Green_background.png */,
 				7B109A2C15720625003488C6 /* SDKIT.txt */,
-				7B109A2A15720625003488C6 /* SDFooterButton.h */,
-				7B109A2B15720625003488C6 /* SDFooterButton.m */,
 				7B109A2D15720625003488C6 /* SDLabelCell.h */,
 				7B109A2E15720625003488C6 /* SDLabelCell.m */,
-				7B109A2F15720625003488C6 /* SDMaterialCell.h */,
-				7B109A3015720625003488C6 /* SDMaterialCell.m */,
 				7B109A3115720625003488C6 /* SDPatternCell.h */,
 				7B109A3215720625003488C6 /* SDPatternCell.m */,
 				7B109A3315720625003488C6 /* SDPlaceholderCell.h */,
 				7B109A3415720625003488C6 /* SDPlaceholderCell.m */,
 				7B109A3515720625003488C6 /* SDSmoothCell.h */,
 				7B109A3615720625003488C6 /* SDSmoothCell.m */,
-				7B109A3715720625003488C6 /* SDStepCell.h */,
-				7B109A3815720625003488C6 /* SDStepCell.m */,
 				7B109A3915720625003488C6 /* SDSwitchCell.h */,
 				7B109A3A15720625003488C6 /* SDSwitchCell.m */,
 				7B109A3B15720625003488C6 /* SDTextFieldCell.h */,
@@ -172,8 +184,22 @@
 		7B109A521572B09C003488C6 /* Class VCs */ = {
 			isa = PBXGroup;
 			children = (
-				7B109A4F1572B095003488C6 /* SDFooterButtonViewController.h */,
-				7B109A501572B095003488C6 /* SDFooterButtonViewController.m */,
+				7BE13E7C1572D77B00F94A82 /* DisplayViewController.h */,
+				7BE13E7D1572D77B00F94A82 /* DisplayViewController.m */,
+				7BE13E7E1572D77B00F94A82 /* SDFooterButtonViewController.h */,
+				7BE13E7F1572D77B00F94A82 /* SDFooterButtonViewController.m */,
+				7BE13E841572E9BD00F94A82 /* SDLabelCellViewController.h */,
+				7BE13E851572E9BD00F94A82 /* SDLabelCellViewController.m */,
+				7BE13E871572F4D800F94A82 /* SDPatternViewController.h */,
+				7BE13E881572F4D800F94A82 /* SDPatternViewController.m */,
+				7BE13E8A1572F4EE00F94A82 /* SDSmoothViewController.h */,
+				7BE13E8B1572F4EE00F94A82 /* SDSmoothViewController.m */,
+				7B3374631572F682003532B6 /* SDPlaceholderCellViewController.h */,
+				7B3374641572F682003532B6 /* SDPlaceholderCellViewController.m */,
+				7BE13E8D1572F52900F94A82 /* SDSwitchCellViewController.h */,
+				7BE13E8E1572F52900F94A82 /* SDSwitchCellViewController.m */,
+				7BE13E901572F53700F94A82 /* SDTextFieldCellViewController.h */,
+				7BE13E911572F53800F94A82 /* SDTextFieldCellViewController.m */,
 			);
 			name = "Class VCs";
 			sourceTree = "<group>";
@@ -234,6 +260,8 @@
 				7B109A3F15720625003488C6 /* Green_background.png in Resources */,
 				7B109A4015720625003488C6 /* README.md in Resources */,
 				7B109A4315720625003488C6 /* SDKIT.txt in Resources */,
+				7BE13E7A1572D69C00F94A82 /* log in Resources */,
+				7BE13E831572DD9900F94A82 /* Red_Background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,17 +275,21 @@
 				7B109A101571FFD0003488C6 /* main.m in Sources */,
 				7B109A141571FFD0003488C6 /* AppDelegate.m in Sources */,
 				7B109A221571FFFD003488C6 /* RootViewController.m in Sources */,
-				7B109A4215720625003488C6 /* SDFooterButton.m in Sources */,
 				7B109A4415720625003488C6 /* SDLabelCell.m in Sources */,
-				7B109A4515720625003488C6 /* SDMaterialCell.m in Sources */,
 				7B109A4615720625003488C6 /* SDPatternCell.m in Sources */,
 				7B109A4715720625003488C6 /* SDPlaceholderCell.m in Sources */,
 				7B109A4815720625003488C6 /* SDSmoothCell.m in Sources */,
-				7B109A4915720625003488C6 /* SDStepCell.m in Sources */,
 				7B109A4A15720625003488C6 /* SDSwitchCell.m in Sources */,
 				7B109A4B15720625003488C6 /* SDTextFieldCell.m in Sources */,
-				7B109A4E1572B029003488C6 /* DisplayViewController.m in Sources */,
-				7B109A511572B095003488C6 /* SDFooterButtonViewController.m in Sources */,
+				7BE13E801572D77B00F94A82 /* DisplayViewController.m in Sources */,
+				7BE13E811572D77B00F94A82 /* SDFooterButtonViewController.m in Sources */,
+				7BE13E861572E9BD00F94A82 /* SDLabelCellViewController.m in Sources */,
+				7BE13E891572F4D800F94A82 /* SDPatternViewController.m in Sources */,
+				7BE13E8C1572F4EE00F94A82 /* SDSmoothViewController.m in Sources */,
+				7BE13E8F1572F52900F94A82 /* SDSwitchCellViewController.m in Sources */,
+				7BE13E921572F53800F94A82 /* SDTextFieldCellViewController.m in Sources */,
+				7B3374651572F682003532B6 /* SDPlaceholderCellViewController.m in Sources */,
+				7B3374691572FCC0003532B6 /* SDFooterButtonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +393,7 @@
 				7B109A1F1571FFD0003488C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

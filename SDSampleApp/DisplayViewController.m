@@ -12,9 +12,8 @@
 
 @end
 
-@implementation DisplayViewController{
-    NSArray *examples;
-}
+@implementation DisplayViewController
+@synthesize examples = _examples;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -28,14 +27,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    examples = [NSArray arrayWithObjects:@"Example 1",@"Example 2",@"Example 3", nil];
+    _examples = [NSArray arrayWithObjects:@"Example 1",@"Example 2",@"Example 3", nil];
     
 }
 
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    return YES;
 }
 
 #pragma mark - Table view data source
@@ -51,7 +50,7 @@
 {
 
     // Return the number of rows in the section.
-    return [examples count];
+    return [_examples count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -63,7 +62,7 @@
     }
     // Configure the cell...
     
-    [[cell textLabel] setText:[examples objectAtIndex:indexPath.row]];
+    [[cell textLabel] setText:[_examples objectAtIndex:indexPath.row]];
     return cell;
 }
 

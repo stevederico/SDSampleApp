@@ -38,19 +38,15 @@
     
     viewControllers = [[NSArray alloc] initWithObjects:
                        [NSDictionary dictionaryWithObjectsAndKeys:
-                        @"SDFooterButtonViewController",@"Class",@"SDFooterButton",@"Title", nil],
+                        @"SDFooterButtonViewController",@"Class",@"SDFooterButtonView",@"Title", nil],
                        [NSDictionary dictionaryWithObjectsAndKeys:
-                        @"SDLabelCellViewController",@"Class",@"SDLabelCell",@"Title", nil],
-                       [NSDictionary dictionaryWithObjectsAndKeys:
-                        @"SDMaterialCellViewController",@"Class",@"SDMaterialCell",@"Title", nil]
+                        @"SDLabelCellViewController",@"Class",@"SDLabelCell",@"Title", nil]
                        ,[NSDictionary dictionaryWithObjectsAndKeys:
-                        @"SDPatternCellViewController",@"Class",@"SDPatternCell",@"Title", nil],
+                        @"SDPatternViewController",@"Class",@"SDPatternCell",@"Title", nil],
                        [NSDictionary dictionaryWithObjectsAndKeys:
                         @"SDPlaceholderCellViewController",@"Class",@"SDPlaceholderCell",@"Title", nil],
                        [NSDictionary dictionaryWithObjectsAndKeys:
-                        @"SDSmoothCellViewController",@"Class",@"SDSmoothCell",@"Title", nil],
-                       [NSDictionary dictionaryWithObjectsAndKeys:
-                        @"SDStepCellViewController",@"Class",@"SDStepCell",@"Title", nil],
+                        @"SDSmoothViewController",@"Class",@"SDSmoothCell",@"Title", nil],
                        [NSDictionary dictionaryWithObjectsAndKeys:
                         @"SDSwitchCellViewController",@"Class",@"SDSwitchCell",@"Title", nil],
                        [NSDictionary dictionaryWithObjectsAndKeys:
