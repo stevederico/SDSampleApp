@@ -22,7 +22,7 @@
     if (cell == nil) {
         cell = [[SDRoundedImageViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier];
     }
-    
+    [cell.imageView setImage:[UIImage imageNamed:@"gg.jpg"]];
     [[cell textLabel] setText:[self.examples objectAtIndex:indexPath.row]];
     
     return cell;
