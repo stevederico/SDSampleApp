@@ -6,21 +6,21 @@
 //  Copyright (c) 2012 Bixby Apps. All rights reserved.
 //
 
-#import "SDSmoothViewController.h"
-#import "SDSmoothCell.h"
+#import "SDRoundedImageViewCellViewController.h"
+#import "SDRoundedImageViewCell.h"
 
-@interface SDSmoothViewController ()
+@interface SDRoundedImageViewCellViewController ()
 
 @end
 
-@implementation SDSmoothViewController
+@implementation SDRoundedImageViewCellViewController
 
 - (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     static NSString *CellIdentifier = @"Cell";
-    SDSmoothCell *cell = (SDSmoothCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    SDRoundedImageViewCell *cell = (SDRoundedImageViewCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[SDSmoothCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier];
+        cell = [[SDRoundedImageViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier];
     }
     
     [[cell textLabel] setText:[self.examples objectAtIndex:indexPath.row]];

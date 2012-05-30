@@ -14,12 +14,14 @@
 
 @implementation SDPatternViewController
 
+
+
 - (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     static NSString *CellIdentifier = @"Cell";
     SDPatternCell *cell = (SDPatternCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[SDPatternCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier];
+        cell = [[SDPatternCell alloc] initWithFirstColor:[UIColor lightGrayColor] andSecondColor:[UIColor lightTextColor] andReuseIdentifier:CellIdentifier];
     }
     
     [[cell textLabel] setText:[self.examples objectAtIndex:indexPath.row]];

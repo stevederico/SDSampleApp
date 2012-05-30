@@ -21,10 +21,19 @@
     if (cell == nil) {
         cell = [[SDSwitchCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier];
     }
-    
+    cell.switchItem.tag = indexPath.row;
     [[cell textLabel] setText:[self.examples objectAtIndex:indexPath.row]];
+    [cell.switchItem addTarget:self action:@selector(switchFlipped:) forControlEvents:UIControlEventValueChanged];
     
     return cell;
+}
+
+- (void)switchFlipped:(id)sender{
+    UISwitch *switchItem = sender;
+
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Switch Flipped" message:[NSString stringWithFormat:@"Row %d",switchItem.tag] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [alert show];
+
 }
 
 @end

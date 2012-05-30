@@ -28,6 +28,7 @@
 {
     [super viewDidLoad];
     _examples = [NSArray arrayWithObjects:@"Example 1",@"Example 2",@"Example 3", nil];
+    [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
     
 }
 
@@ -63,8 +64,20 @@
     // Configure the cell...
     
     [[cell textLabel] setText:[_examples objectAtIndex:indexPath.row]];
+
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    [tableView deselectRowAtIndexPath:tableView.indexPathForSelectedRow animated:YES];
+    
+}
+
+
+//- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+//
+//    return 1.0f;
+//}
 
 @end

@@ -38,15 +38,13 @@
     
     viewControllers = [[NSArray alloc] initWithObjects:
                        [NSDictionary dictionaryWithObjectsAndKeys:
-                        @"SDFooterButtonViewController",@"Class",@"SDFooterButtonView",@"Title", nil],
-                       [NSDictionary dictionaryWithObjectsAndKeys:
-                        @"SDLabelCellViewController",@"Class",@"SDLabelCell",@"Title", nil]
+                        @"SDFooterButtonViewController",@"Class",@"SDFooterButtonView",@"Title", nil]
                        ,[NSDictionary dictionaryWithObjectsAndKeys:
                         @"SDPatternViewController",@"Class",@"SDPatternCell",@"Title", nil],
                        [NSDictionary dictionaryWithObjectsAndKeys:
                         @"SDPlaceholderCellViewController",@"Class",@"SDPlaceholderCell",@"Title", nil],
                        [NSDictionary dictionaryWithObjectsAndKeys:
-                        @"SDSmoothViewController",@"Class",@"SDSmoothCell",@"Title", nil],
+                        @"SDRoundedImageViewCellViewController",@"Class",@"SDRoundedImageViewCell",@"Title", nil],
                        [NSDictionary dictionaryWithObjectsAndKeys:
                         @"SDSwitchCellViewController",@"Class",@"SDSwitchCell",@"Title", nil],
                        [NSDictionary dictionaryWithObjectsAndKeys:
@@ -67,7 +65,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    return YES;
 }
 
 #pragma mark - Table view data source
@@ -109,13 +107,35 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-
     Class klass = [[NSBundle mainBundle] classNamed: [[viewControllers objectAtIndex:indexPath.row] valueForKey:@"Class"]];
-    NSLog(@"Klass %@",[klass description]);
 	UIViewController *viewController = [[klass alloc] init];
     viewController.title = [[viewControllers objectAtIndex:indexPath.row] valueForKey:@"Title"];
 	[self.navigationController pushViewController:viewController animated:YES];
 
 }
 
+- (UIView*)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section{
+
+    SDFooterButtonView *footer = [[SDFooterButtonView alloc] initWithStyle:SDFooterButtonStyleRed];
+    [footer.button addTarget:self action:@selector(submitIssue) forControlEvents:UIControlEventTouchUpInside];
+    [footer.button setTitle:@"Submit An Issue" forState:UIControlStateNormal];
+
+    return footer;
+
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
+
+    return 50.0f;
+}
+
+
+- (void)submitIssue{
+
+    //OPEN MAILCOntrller
+        NSURL *url = [NSURL URLWithString:@"https://github.com/stevederico/SDKit/issues"];
+    [[UIApplication sharedApplication] openURL:url];
+    
+
+}
 @end

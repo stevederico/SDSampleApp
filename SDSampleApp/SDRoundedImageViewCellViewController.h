@@ -8,6 +8,6 @@
 
 #import "DisplayViewController.h"
 
-@interface SDSmoothViewController : DisplayViewController
+@interface SDRoundedImageViewCellViewController : DisplayViewController
 
 @end
