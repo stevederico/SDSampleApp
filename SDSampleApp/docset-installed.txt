@@ -1,0 +1,2 @@
+appledoc --project-name SDSampleApp  --project-company "Bixby Apps" --company-id com.bixbyapps --output ~/help --no-create-html . ~/Desktop/SDSampleApp/SDSampleApp 
+appledoc --project-name SDSampleApp --project-company "Bixby Apps" --company-id com.bixbyapps --output ~/help --verbose 6 --no-create-docset --create-html ~/Desktop/SDSampleApp/SDKit/ -o ./docs --keep-undocumented-objects --keep-undocumented-members --search-undocumented-doc
