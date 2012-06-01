@@ -68,6 +68,7 @@
 		7B33746B157325CD003532B6 /* gg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gg.jpg; sourceTree = "<group>"; };
 		7B525CAA15736142005E85AF /* SDKitIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SDKitIcon.png; path = ../SDKitIcon.png; sourceTree = "<group>"; };
 		7B525CAC1573615A005E85AF /* SDKitIcon_nonretina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SDKitIcon_nonretina.png; path = ../SDKitIcon_nonretina.png; sourceTree = "<group>"; };
+		7BA1224C1578AE9E00A8EE94 /* SDKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKit.h; sourceTree = "<group>"; };
 		7BD725FE15734A08006BA842 /* SDRoundedImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRoundedImageViewCell.h; sourceTree = "<group>"; };
 		7BD725FF15734A08006BA842 /* SDRoundedImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRoundedImageViewCell.m; sourceTree = "<group>"; };
 		7BD7260115734A4B006BA842 /* SDRoundedImageViewCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRoundedImageViewCellViewController.h; sourceTree = "<group>"; };
@@ -160,6 +161,7 @@
 			children = (
 				7B33746A15731DC5003532B6 /* Images */,
 				7B109A2715720625003488C6 /* README.md */,
+				7BA1224C1578AE9E00A8EE94 /* SDKit.h */,
 				7B3374671572FCC0003532B6 /* SDFooterButtonView.h */,
 				7B3374681572FCC0003532B6 /* SDFooterButtonView.m */,
 				7B109A3115720625003488C6 /* SDPatternCell.h */,
